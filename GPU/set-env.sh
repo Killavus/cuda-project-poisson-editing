@@ -1,0 +1,8 @@
+export CUDA_DIR=/opt/cuda
+export PATH=$CUDA_DIR/bin:$PATH
+export LIBRARY_PATH=$CUDA_DIR/lib64:$LIBRARY_PATH
+export LD_LIBRARY_PATH=$CUDA_DIR/lib64:$CUDA_DIR/lib:$LD_LIBRARY_PATH
+export CPATH=$CUDA_DIR/include:$CUDA_DIR/samples/common/inc/:$CPATH
+export CPLUS_INCLUDE_PATH=$CUDA_DIR/include:$CUDA_DIR/samples/common/inc/:$CPLUS_INCLUDE_PATH
+export CUDA_DEBUGGER_SOFTWARE_PREEMPTION=1
+
